@@ -2,8 +2,6 @@
 
 A Power BI dashboard analyzing customer churn risk, service subscriptions, billing behavior, and demographics for a telecom-style customer base.
 
-![Dashboard Overview](docs/images/dashboard-overview.png)
-
 ## Overview
 
 The **Customer Churn Dashboard** gives a single view into churn risk and its drivers — support ticket volume, subscribed services, contract type, and billing method — so teams can identify which customer segments are most likely to churn and why.
@@ -81,35 +79,25 @@ The **Customer Churn Dashboard** gives a single view into churn risk and its dri
 - **Power BI Desktop** — data modeling, DAX measures, and report layout
 - Data source: customer churn dataset (demographics, account info, service subscriptions, billing)
 
-## Repository Structure
 
-```
-customer-churn-dashboard/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── docs/
-│   ├── images/
-│   │   └── dashboard-overview.png
-│   └── CHANGELOG.md
-└── pbix/
-    └── (place your .pbix file here)
-```
-
-## Getting Started
-
-1. Clone this repository.
-2. Open the `.pbix` file (once added under `pbix/`) in Power BI Desktop.
-3. Update data source connections under **Home > Transform data > Data source settings**.
-4. Refresh the data model.
-
-## Roadmap / Ideas
-
-- [ ] Add churn prediction model / risk score breakdown
-- [ ] Add trend view of churn over time
-- [ ] Add segment drill-through (e.g., by contract type or payment method)
-- [ ] Document DAX measures in `docs/dax-reference.md`
-
+## Features
+- Multi-page dashboard
+- Interactive filters for
+- KPI cards
+- Clean, presentation-ready layout
+## Tools Used
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
+- Data Analysis
+## What I Learned
+- How to structure and present business data clearly
+- How to build an effective dashboard in Excel
+- How to turn raw data into actionable insights
+- How to communicate findings through visual storytelling
+## About Me
+**Amr Souka**  
+Data Analyst | Accountant | SAP FI Consultant | Excel | Power BI | Data Visualization
 ## License
-
-See [LICENSE](LICENSE).
+This project is shared for portfolio and educational purposes.
